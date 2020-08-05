@@ -5,6 +5,9 @@ body {
 .container {
     display: grid;
     grid-template: 300px 100px 100px / 50% 200px 100px;
+    /* column-gap: 30px;
+    row-gap: 10px; */
+    gap: 100px 100px;
 }
 
 .item {
